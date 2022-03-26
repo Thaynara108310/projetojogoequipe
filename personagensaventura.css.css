@@ -1,0 +1,176 @@
+*  {
+    margin:0px;
+    padding: 0px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    background-color:#5f9ea0;
+}
+
+.top-menu{
+
+    background-color: black;
+    width: 100%;
+    height: 15px;
+}
+
+.top-link{
+    display: flex;
+    border: 2px;
+    width: 70px;
+    height: 20px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color:yellow;
+    
+}
+
+.Container{
+
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    width:100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.saida{
+
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    font-size: 30px;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: absolute;
+}
+
+.painel-jogo {
+
+    position: absolute;
+    display: flex;
+    margin: 30px;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+    height: 550px;
+
+}
+
+.fotos-personagens{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height:300px;
+    background-color:#5f9ea0;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.fotos-personagens2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.top-link-personagens{
+
+    display: flex;
+    border: 2px;
+    width: 70px;
+    height: 20px;
+    text-decoration:none;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color:yellow;
+}
+.contatos-img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.contatos-img2{
+
+    width: 30px;
+    height: 30px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    width: 100%;
+}
+
+
+.footer-copy{
+    display: flex;
+    justify-content: center;
+    color: wheat;
+}
+
+@media (max-width:700px) {
+
+    .imagem-logo{
+        display:none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .fotos-dog {
+
+        justify-content: center;
+    }
+
+    nav {
+        flex-direction:column;
+    }
+
+    .painel-dog {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+}
+
+a:hover{
+
+    transform:1.0s;
+    box-shadow: 1px 1px 3px #f2cbbd;
+}
+
+.top-link-adotar:hover{
+
+  
+    transform:1.0s;
+    box-shadow: 1px 1px 3px #f2cbbd;
+
+}
